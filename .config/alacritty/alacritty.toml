@@ -1,0 +1,69 @@
+[general]
+import = ["~/.config/alacritty/themes/themes/one_dark.toml"]
+# See theme preview at:
+# https://github.com/alacritty/alacritty-theme
+# Goated thene:
+# ayu_light
+# one_dark
+# one_light
+# nord_light
+# rose-pine-dawn
+# tokyo-night
+
+# Window dimensions (changes require restart)
+[window]
+dimensions = { columns = 80, lines = 24 }
+position = { x = 0, y = 0 }
+padding = { x = 12, y = 12 }
+dynamic_padding = false
+decorations = "None"
+startup_mode = "Windowed"
+title = "Alacritty"
+class = { instance = "Alacritty", general = "Alacritty" }
+# opacity=0.4
+# blur=true
+
+# Font configuration (changes require restart)
+[font]
+# normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+# bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
+# italic = { family = "JetBrainsMono Nerd Font Mono", style = "Italic" }
+# bold_italic = { family = "JetBrainsMono Nerd Font Mono", style = "Bold Italic" }
+#
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+size = 16.0
+
+# Cursor configuration (changes require restart)
+[cursor]
+style = "Block"
+
+# Bell configuration (changes require restart)
+[bell]
+animation = "Ease"
+
+# Mouse configuration (changes require restart)
+# [mouse]
+# double_click = { threshold = 300 }
+# triple_click = { threshold = 300 }
+
+# Scrolling configuration (changes require restart)
+[scrolling]
+history = 10000
+multiplier = 3
+
+# Key bindings
+[keyboard]
+bindings = [
+    { key = "V", mods = "Control|Shift", action = "Paste" },
+    { key = "C", mods = "Control|Shift", action = "Copy" },
+    { key = "Plus", mods = "Control", action = "IncreaseFontSize" },
+    { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+    { key = "Equals", mods = "Control", action = "ResetFontSize" },
+    # { key = "W", mods = "Control", action = "Quit" },
+    # { key = "L", mods = "Control", action = "ClearSelection" },
+    { key = "F", mods = "Control", action = "SearchForward" },
+    { key = "B", mods = "Control", action = "SearchBackward" }
+]

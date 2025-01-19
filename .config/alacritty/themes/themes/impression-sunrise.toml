@@ -1,0 +1,28 @@
+# Colors (Impression Sunrise)
+
+# Default colors
+[colors.primary]
+background = '#2b3a42' # Deep blue-gray from the water
+foreground = '#f4a259' # Soft warm orange from the sunrise
+
+# Normal colors
+[colors.normal]
+black   = '#2b3a42' # Deep shadowed water
+red     = '#e63946' # Hints of red from the sunrise glow
+green   = '#a8dadc' # Light pastel teal from the sky reflection
+yellow  = '#ffe066' # Soft golden tones from the sun's shimmer
+blue    = '#457b9d' # Cool blue tones from the water
+magenta = '#b56576' # Muted magenta from distant haze
+cyan    = '#61a5c2' # Gentle cyan highlights
+white   = '#f1faee' # Bright light accents
+
+# Bright colors
+[colors.bright]
+black   = '#344e5c' # Slightly brighter deep blue
+red     = '#ff7b7b' # Vibrant red-orange glow
+green   = '#d1f5e8' # Softened bright teal
+yellow  = '#fff6a5' # Warm golden sunlight
+blue    = '#74a7c2' # Brightened water highlights
+magenta = '#d78ba2' # Softer magenta for haze
+cyan    = '#a4d8e6' # Bright cyan highlights
+white   = '#ffffff' # Pure white
