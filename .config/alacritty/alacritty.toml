@@ -23,6 +23,9 @@ class = { instance = "Alacritty", general = "Alacritty" }
 # opacity=0.4
 # blur=true
 
+[env]
+term = "xterm-256color"
+
 # Font configuration (changes require restart)
 [font]
 # normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
