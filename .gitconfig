@@ -1,0 +1,11 @@
+[user]
+	name = jp-roisin
+	email = 72938245+jp-roisin@users.noreply.github.com
+[merge]
+	ff = yes
+[core]
+	editor = nvim
+[rerere]
+	enabled = true
+[push]
+	autoSetupRemote = true
