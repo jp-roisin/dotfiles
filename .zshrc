@@ -9,7 +9,7 @@ ZSH_THEME="gozilla"
 ZSH_COLORIZE_TOOL=chroma
 ZSH_COLORIZE_STYLE="colorful"
 
-plugins=(git tmux alias-tips autojump yarn zsh-cargo-completion zsh-autosuggestions)
+plugins=(git tmux alias-tips autojump yarn brew zsh-cargo-completion zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
