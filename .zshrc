@@ -44,6 +44,10 @@ export PATH="/opt/homebrew/opt/openssl@1.1/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# go
+export GOPATH="$HOME/go"
+PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
 # Tmux
 export TMUX_CONF="$HOME/.config/tmux/.tmux.conf"
 
