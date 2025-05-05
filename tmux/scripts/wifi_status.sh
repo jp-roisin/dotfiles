@@ -11,6 +11,8 @@ if [[ "$wifi_status" == *"You are not associated"* ]]; then
   echo "\uf1eb 0%"
 else
   # Use `airport` to get detailed Wi-Fi information
+  # WARNING: The airport command line tool is deprecated and will be removed in a future release.
+  # For diagnosing Wi-Fi related issues, use the Wireless Diagnostics app or wdutil command line tool.
   wifi_info=$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I)
 
   # Extract RSSI (signal strength)
