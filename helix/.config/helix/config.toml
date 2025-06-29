@@ -6,6 +6,7 @@ line-number = "relative"
 cursorline = true
 true-color = true
 
+auto-format = true
 
 [editor.cursor-shape]
 insert = "bar"
